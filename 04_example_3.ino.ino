@@ -21,5 +21,6 @@ void loop() {
 }
 
 int toggle_state(int toggle) {
+  toggle +=toggle;
   return toggle;
 }
