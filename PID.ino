@@ -24,8 +24,8 @@
 #define _INTERVAL_SERVO 20 // servo interval (ms)
 #define _INTERVAL_SERIAL 100 // serial interval (ms)
 // PID parameters
-#define _KP 0.7
-#define _KD 70
+#define _KP 0.55
+#define _KD 40
 #define _KI 0.002 // proportional gain *****
 //////////////////////
 // global variables //
