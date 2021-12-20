@@ -147,7 +147,7 @@ float ir_distance(void){ // return value unit: mm
   int b = 400;
   float volt = float(analogRead(PIN_IR));
   val = ((6762.0/(volt-9.0))-4.0) * 10.0;
-  val = 100 + 300.0 / (_DIST_MAX - _DIST_MIN) *(val - _DIST_MIN);//[20213092] 오류수정
+  val = 100 + 300.0 / (_DIST_MAX - _DIST_MIN) *(val - _DIST_MIN);
   val = 100 + 300.0 / (b-a) * (val - a);
   return val;
 }
